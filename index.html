@@ -1,0 +1,77 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>09.mar.2021</title>
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <h1>Calcola il prezzo del tuo biglietto</h1>
+
+    <div class="container">
+      <div class="row1">
+
+        <div class="box-nome">
+          <label for="nome">Nome e Cognome:</label>
+          <input id="nome" type="text" name="nome" value="">
+        </div>
+
+        <div class="box-km">
+          <label for="km">distanza:</label>
+          <input id="km" type="number" name="km" value="">
+        </div>
+
+        <div class="box-eta">
+          <label for="eta">che età hai?</label>
+          <select id="eta" name="eta">
+            <option value="">scegli un opzione</option>
+            <option value="1">minorenne</option>
+            <option value="2">maggiorenne</option>
+            <option value="3">over 65</option>
+          </select>
+
+        </div>
+
+      </div>
+      <div class="row2">
+        <div class="box-invio">
+          <input id="genera" type="button" value="Genera">
+          <input id="annulla" type="button" value="Annulla">
+        </div>
+      </div>
+    </div>
+
+    <!-- seconda riga -->
+
+
+    <h1>Il tuo biglietto</h1>
+
+    <div class="container">
+      <h2>Dettaglio Passeggero</h2>
+      <table>
+          <thead>
+            <tr>
+              <th>Nome pax</th>
+              <th>Offerta</th>
+              <th>Carrozza</th>
+              <th>codice CP</th>
+              <th>Costo Biglietto</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="">eerg</td>
+              <td id="">regeg</td>
+              <td id="carrozza">rgreg</td>
+              <td id="cp">dddd</td>
+              <td id="prezzo">b</td>
+            </tr>
+          </tbody>
+      </table>
+
+    </div>
+
+
+  <script src="js/script.js"></script>
+  </body>
+</html>
